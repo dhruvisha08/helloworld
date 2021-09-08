@@ -48,7 +48,6 @@ const SignUp = () => {
 
     return(
         <div className="body">
-            <h1> </h1>
           <div className="formBox">
              {/* <!-- Sign up and Sign in button --> */}  
              <button type="button" id="signUpButton"  >SIGN UP</button>
