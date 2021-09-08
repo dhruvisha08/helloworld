@@ -3,12 +3,14 @@ import SignUp from './SignUp';
 import SignIn from './SignIn';
 import AddClient from './AddClient';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import SignIn from './SignIn';
 
 const App = () => {
     return(
         <div>
             <Router>
             <Switch>
+                <SignIn />
                 <Route path="/" exact component={SignUp}/>
                 <Route path="/signUp" component={SignUp}/>
                 <Route path="/signIn" component={SignIn}/>
